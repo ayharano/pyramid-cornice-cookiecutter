@@ -1,8 +1,9 @@
+import json
 
-import json
 import click
-import json
+
 from {{ cookiecutter.repo_name }}.swagger import _openAPI_spec
+
 
 @click.group()
 def swagger():

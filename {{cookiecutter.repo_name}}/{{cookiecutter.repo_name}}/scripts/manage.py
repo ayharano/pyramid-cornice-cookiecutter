@@ -1,8 +1,10 @@
-import click
 import logging
-from pyramid.settings import asbool
 import sys
+
+import click
 from pyramid.paster import bootstrap
+from pyramid.settings import asbool
+
 from .swagger import swagger
 
 
